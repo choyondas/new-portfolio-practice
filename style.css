@@ -1,0 +1,67 @@
+/* first div */
+.f-heading {
+  border-left: 2px solid #ff5959;
+  padding-left: 10px;
+}
+.f-heading h2 {
+  font-size: 60px;
+  font-weight: 700;
+}
+.f-heading span {
+  color: #ffad5a;
+}
+.first-div .row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.f-btn {
+  color: white;
+  background-color: #ff5959;
+  padding: 10px 15px;
+  width: 160px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+/* second div */
+
+.s-item {
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.s-title h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.s-title span {
+  color: #ff5959;
+}
+
+.s-content-div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+.s-item:nth-child(1) {
+  background-color: #4f9da6;
+}
+.s-item:nth-child(2) {
+  background-color: #ff5959;
+}
+.s-item:nth-child(3) {
+  background-color: #fff4d6;
+}
+
+/* third div style */
+.third-div .row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.third-div h3 {
+  font-size: 36px;
+  font-weight: bold;
+}
